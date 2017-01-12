@@ -64,4 +64,21 @@ for j in jobs:
     print(j.submit_time)
     print(j.submitter)
 
+# Submit a job
+
+usqlscript = 'somescript'
+
+jobId = str(uuid.uuid4())
+jobResult = analytics_clients.JobClient.job.create(
+    adla_account_name,
+    jobId,
+    azure.mgmt.datalake.analytics.job.models.JobInformation(
+        name='MyJob',
+        type='USql',
+        properties=azure.mgmt.datalake.analytics.job.models.USqlJobProperties(
+            script=usqlscript 
+        )
+    )
+)
+
 print("DEMO FINISHED")
