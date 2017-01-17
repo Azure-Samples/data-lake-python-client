@@ -1,7 +1,7 @@
 
 ---
 services: data-lake-store,data-lake-analytics
-platforms: pythoh
+platforms: python
 author: saveenr-msft
 ---
 
