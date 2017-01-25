@@ -9,6 +9,10 @@ author: saveenr-msft
 
 This sample demonstrates basic use of the Python SDKs to manage and operate Azure Data Lake.
 
+## SDK Source Code
+* [Management operations](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-mgmt-datalake-store)
+* [Filesystem operations](https://github.com/Azure/azure-data-lake-store-python/blob/master/azure/datalake/store/)
+
 ## Resources
 
 * [Azure Data Lake homepage](http://azure.github.io/AzureDataLake/)
