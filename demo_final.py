@@ -1,25 +1,22 @@
-# Common Azure imports
+# Common Azure modules
 import adal
 import azure.mgmt.resource.resources
 import msrestazure.azure_active_directory
 
-# ADLS imports
+# Azure Data Lake modules
 import azure.mgmt.datalake.store
 import azure.datalake.store
-
-# ADLA imports
 import azure.mgmt.datalake.analytics
 
-# All other imports
+# Other useful modules
 import os
 import sys
 import itertools
 
-
+# the adlhelper will simplify working with Azure Data Constants 
 import adlhelper
 
 print("DEMO STARTING")
-
 
 # define constants
 tenant = "microsoft.onmicrosoft.com"
@@ -28,7 +25,8 @@ adls_account_name = 'datainsightsadhoc'
 adla_account_name = 'datainsightsadhoc'
 
 # Handle Authentication
-auth_session = adlhelper.AuthenticatedSession( subscription_id , tenant, r"C:\src\tr23python\adl_demo_tokencache.pickle")
+token_cache_fname = r"C:\src\tr23python\adl_demo_tokencache.pickle"
+auth_session = adlhelper.AuthenticatedSession( subscription_id , tenant, token_cache_fname )
 token = auth_session.Token
 credentials =  auth_session.Credentials
 
