@@ -5,7 +5,7 @@ platforms: python
 author: saveenr-msft
 ---
 
-# Azure Data Lake DotNet Python Sample
+# Azure Data Lake Python Sample
 
 This sample demonstrates basic use of the Python SDKs to manage and operate Azure Data Lake.
 
