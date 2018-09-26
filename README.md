@@ -15,6 +15,6 @@ This sample demonstrates basic use of the Python SDKs to manage and operate Azur
 
 ## Resources
 
-* [Azure Data Lake Storage Gen1 homepage](http://azure.github.io/AzureDataLake/)
+* [Azure Data Lake homepage](http://azure.github.io/AzureDataLake/)
 * [Azure Data Lake blog](http://aka.ms/adlblog)
 
