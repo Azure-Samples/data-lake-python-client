@@ -5,9 +5,9 @@ platforms: python
 author: saveenr-msft
 ---
 
-# Azure Data Lake Python Client Sample
+# Azure Data Lake Storage Gen1 Python Client Sample
 
-This sample demonstrates basic use of the Python SDKs to manage and operate Azure Data Lake.
+This sample demonstrates basic use of the Python SDKs to manage and operate Azure Data Lake Storage Gen1.
 
 ## SDK Source Code
 * [Management operations](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-mgmt-datalake-store)
